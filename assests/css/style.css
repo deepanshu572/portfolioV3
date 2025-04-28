@@ -724,12 +724,20 @@ body {
 .img1:hover{
      scale: 2;
 }
+@media screen and (min-width: 600px) {
 
-  /* @media screen and (max-width: 700px) {
-    .project {
-        padding: 6rem 2rem;
+.project{
+    padding: 0 5rem ;
+}
+}
+
+
+  @media screen and (max-width: 700px) {
+    #project1 ,
+    #project3{
+        flex-wrap: wrap-reverse;
     }
-  } */
+  }
   @media screen and (max-width: 480px) {
     .bottom_left h3 {
         width: auto;
@@ -738,10 +746,6 @@ body {
     .bottom_right h3 {
         font-size: 1.4rem;
     }
-    #project1 ,
-#project3{
-    flex-wrap: wrap-reverse;
-}
     .circle1 {
         left: 12%;
         box-shadow: 6px 17px 146px 71px #ff3d0da3;

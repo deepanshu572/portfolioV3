@@ -78,24 +78,6 @@ tl.from(".flex-img img", { opacity: 0 , y: 3, duration : 1 }, "sameTime")
   .from(".skills p", { opacity: 0, x: -10 , duration : 1}, "sameTime")
   .from(".image-flex .img1", { opacity: 0, y: -10 , duration : 1.2 ,stagger : 0.2}, "sameTime");
 
-
-  
-
-
-  // gsap.from(".first-img", {
-  //   opacity  :0,
-  //   duration : 0.2,
-  //   x : -10,
-  //   // scrollTrigger: {
-  //   //   // trigger: ".about-text small",
-  //   //   // scroller: "body",
-  //   //   // markers: true,
-  //   //   // start: "top 80%",
-  //   //   // end: "top 20%",
-  //   //   // scrub: true
-  //   // }
-  // }),
-
   gsap.from(".about-text small , .about-text b , .about-text p", {
     opacity: 0 ,
       duration : 1.2,
